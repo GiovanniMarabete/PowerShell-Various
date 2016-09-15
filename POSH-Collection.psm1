@@ -17,7 +17,7 @@
             $LastBootUpTime = $os.ConvertToDateTime($os.LastBootUpTime);
             $LocalDateTime = $os.ConvertToDateTime($os.LocalDateTime);
   
-            # Calculate uptime - this is automatically a timespan
+            # Calculate uptime - this is automatically a timespan!!!
             $up = $LocalDateTime - $LastBootUpTime;
  
             # Split into Days/Hours/Mins
